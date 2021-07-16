@@ -39,3 +39,12 @@ B. Model fish as well as other swimming animals
 	1. Can you model a dolphin that swims without inheriting from a fish class? -- Done
 	2. How do you avoid duplicating code or introducing unneeded overhead? -- Using SwinInterface
 	
+C. Model animals that change their behaviour over time
+1. Can you model a butterfly?
+	1. A butterfly can fly   -- Done
+	2. A butterfly does not make a sound  -- Done
+2. Can you optimize your model to account for the metamorphosis from caterpillar to
+butterfly?
+	1. A caterpillar cannot fly  -- Done
+	2. A caterpillar can walk (crawl)   -- Done
+	

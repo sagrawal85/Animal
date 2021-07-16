@@ -24,4 +24,18 @@ the rooster.
 	3. A parrot living near the rooster says: “ Cock-a-doodle-doo ”  -- Done
 	4. How do you keep the parrot maintainable? What if we need another parrot lives
 	near a Duck? Or near a phone that rings frequently? -- implemented using parrot class
+
+B. Model fish as well as other swimming animals
+1. In addition to the birds, can you model a fish?
+	1. Fish es don’t sing -- Done
+	2. Fish es don’t walk -- Done
+	3. Fish es can swim -- Done
+2. Can you specialize the fish as a Shark and as a Clownfish?
+	1. Sharks are large and grey -- Done
+	2. Clownfish are small and colourful (orange) -- Done
+	3. Clownfish make jokes -- Done
+	4. Sharks eat other fish -- Done
+3. Dolphin s are not exactly f ish, yet, they are good swimmers
+	1. Can you model a dolphin that swims without inheriting from a fish class? -- Done
+	2. How do you avoid duplicating code or introducing unneeded overhead? -- Using SwinInterface
 	

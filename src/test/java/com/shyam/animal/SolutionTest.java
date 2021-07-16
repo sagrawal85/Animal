@@ -10,6 +10,8 @@ import com.shyam.animal.dto.Bird;
 import com.shyam.animal.dto.Chicken;
 import com.shyam.animal.dto.Duck;
 import com.shyam.animal.dto.Rooster;
+import com.shyam.animal.fish.Dolphin;
+import com.shyam.animal.fish.Fish;
 import com.shyam.animal.parrot.Parrot;
 import com.shyam.animal.parrot.ParrotCat;
 import com.shyam.animal.parrot.ParrotDog;
@@ -18,7 +20,6 @@ import com.shyam.animal.parrot.ParrotRooster;
 public class SolutionTest {
 
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-	private final PrintStream originalOut = System.out;
 
 	@BeforeEach
 	public void init() {
@@ -67,5 +68,10 @@ public class SolutionTest {
 	void swim() {
 		new Duck().swim();
 		assert (outContent.toString()).equals("I am Swimming");
+		
+		new Fish().swim();
+		assert (outContent.toString()).equals("I am Swimming");
+        new Dolphin().swim();
+        assert (outContent.toString()).equals("I am Swimming");
 	}
 }

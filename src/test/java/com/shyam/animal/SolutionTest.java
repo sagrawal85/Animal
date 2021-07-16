@@ -7,6 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.shyam.animal.dto.Bird;
+import com.shyam.animal.dto.Chicken;
+import com.shyam.animal.dto.Duck;
+import com.shyam.animal.dto.Rooster;
 
 public class SolutionTest {
 
@@ -23,11 +26,33 @@ public class SolutionTest {
 	void walk() {
 		new Bird().walk();
 		assert (outContent.toString()).equals("I am walking");
+		new Chicken().walk();
+		assert (outContent.toString()).equals("I am walking");
+		new Rooster().walk();
+		assert (outContent.toString()).equals("I am walking");
 	}
 
 	@Test
 	void sing() {
 		new Bird().sing();
 		assert (outContent.toString()).equals("I am singing");
+		new Duck().sing();
+		assert (outContent.toString()).equals("I am singing");
+        new Chicken().sing();
+        assert (outContent.toString()).equals("I am singing");
+        new Rooster().sing();
+        assert (outContent.toString()).equals("Cock-a-doodle-doo");
+	}
+
+	@Test
+	void fly() {
+		new Bird().fly();
+		assert (outContent.toString()).equals("I am flying");
+	}
+
+	@Test
+	void swim() {
+		new Duck().swim();
+		assert (outContent.toString()).equals("I am Swimming");
 	}
 }

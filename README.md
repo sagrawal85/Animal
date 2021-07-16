@@ -10,3 +10,8 @@ implement them to make their own special sound?
 	2. A duck can swim   -- Done
 	3. A chicken says: “ Cluck, cluck ”   -- Done
 	4. A chicken cannot fly (assumption: its wings are clipped but ignore that )   -- Done
+
+3. Now how would you model a rooster?
+	1. A rooster says: “ Cock-a-doodle-doo ”  -- Done
+	2. How is the rooster related to the chicken? -- Rooster is Type of Chicken
+	3. Can you think of other ways to model a rooster without using inheritance? -- We can think rooster as an animal or a Bird and implement all the related actions according to the rooster itself without implements or extend from chicken.

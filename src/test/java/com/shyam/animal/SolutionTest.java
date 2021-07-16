@@ -10,6 +10,10 @@ import com.shyam.animal.dto.Bird;
 import com.shyam.animal.dto.Chicken;
 import com.shyam.animal.dto.Duck;
 import com.shyam.animal.dto.Rooster;
+import com.shyam.animal.parrot.Parrot;
+import com.shyam.animal.parrot.ParrotCat;
+import com.shyam.animal.parrot.ParrotDog;
+import com.shyam.animal.parrot.ParrotRooster;
 
 public class SolutionTest {
 
@@ -41,6 +45,15 @@ public class SolutionTest {
         new Chicken().sing();
         assert (outContent.toString()).equals("I am singing");
         new Rooster().sing();
+        assert (outContent.toString()).equals("Cock-a-doodle-doo");
+        
+        new Parrot().sing();
+        assert (outContent.toString()).equals("I am singing");
+        new ParrotDog().sing();
+        assert (outContent.toString()).equals("Woof, woof");
+        new ParrotCat().sing();
+        assert (outContent.toString()).equals("Me ow");
+        new ParrotRooster().sing();
         assert (outContent.toString()).equals("Cock-a-doodle-doo");
 	}
 

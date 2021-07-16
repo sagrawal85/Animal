@@ -15,3 +15,13 @@ implement them to make their own special sound?
 	1. A rooster says: “ Cock-a-doodle-doo ”  -- Done
 	2. How is the rooster related to the chicken? -- Rooster is Type of Chicken
 	3. Can you think of other ways to model a rooster without using inheritance? -- We can think rooster as an animal or a Bird and implement all the related actions according to the rooster itself without implements or extend from chicken.
+	
+4. Can you model a parrot? We are specifically interested in three parrots, one that lived
+in a house with dogs one in a house with cats , the other lived on a farm next to
+the rooster.
+	1. A parrot living with dogs says: “Woof, woof”  -- Done
+	2. A parrot living with cats says: “ Me ow”  -- Done
+	3. A parrot living near the rooster says: “ Cock-a-doodle-doo ”  -- Done
+	4. How do you keep the parrot maintainable? What if we need another parrot lives
+	near a Duck? Or near a phone that rings frequently? -- implemented using parrot class
+	

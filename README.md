@@ -48,3 +48,27 @@ butterfly?
 	1. A caterpillar cannot fly  -- Done
 	2. A caterpillar can walk (crawl)   -- Done
 	
+D. Counting animals
+Suppose you have an array of animals, e.g.
+	Animal[] animals = new Animal[]{
+	new Bird(),
+	new Duck(),
+	new Chicken(),
+	new Rooster(),
+	new Parrot(),
+	new Fish(),
+	new Shark(),
+	new Clownfish(),
+	new Dolhpin (),
+	new Frog (),
+	new Dog(),
+	new Butterfly (),
+	new Cat()
+	};
+Note : The above instantiation may be different if you chose to set up your object model
+differently… (hopefully you did)
+1. Can you share the code to count:
+	1. How many of these animals can fly? -- Done
+	2. How many of these animals can walk?  -- Done
+	3. How many of these animals can sing? -- Done
+	4. How many of these animals can swim?  -- Done
